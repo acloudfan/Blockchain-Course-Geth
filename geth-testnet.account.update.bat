@@ -1,1 +1,1 @@
-geth   --datadir "./data" --testnet account new
+geth   --datadir "./data" --testnet account "0"
