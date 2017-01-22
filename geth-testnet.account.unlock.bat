@@ -1,0 +1,1 @@
+geth   --verbosity "0" --datadir "./data" --testnet --exec "loadScript('./scripts/send.unlock.js')" --unlock "0" console
