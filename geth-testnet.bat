@@ -1,1 +1,1 @@
-geth   --verbosity "3" --identity "MyTestNode" --datadir "./data" --testnet 
+geth  --identity "MyTestNode" --datadir "./data" --testnet 

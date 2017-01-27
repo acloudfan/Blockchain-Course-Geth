@@ -20,10 +20,13 @@ transferEthers = function(){
 
     // Send 0.1 ether from sender to receiver account
     // The value to be trasferred should be in wei
-    amount = web3.toWei(0.1,"ether");
+    amount = web3.toWei(0.001,"ether");
 
     // Call send to transfer 0.1 ether from account 0 to account 1
-    eth.sendTransaction({from:sender, to:receiver, value: amount})
+
+    addr = eth.sendTransaction({from:sender, to:receiver, value: amount})
+
+    console.log("Address=",addr);
 
     // In a single line
     // personal.unlockAccount(eth.coinbase,"password")
