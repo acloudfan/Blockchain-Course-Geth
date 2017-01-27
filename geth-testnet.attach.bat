@@ -1,1 +1,1 @@
-geth --datadir "./data" --testnet  attach "//./pipe/geth.ipc"
+geth  attach "//./pipe/geth.ipc"
