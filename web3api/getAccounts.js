@@ -2,13 +2,25 @@
  * Get the accounts from the connected node
  * ASync        web3.eth.accounts
  * Sync         web3.eth.getAccounts(callback)
+ * 
+ * To execute this script in console
+ * > exec getAccounts.js
  */
 
-console.log('tester')
+
 accounts = web3.eth.accounts
 
 //console.log("Sync eth.accounts=", JSON.stringify(accounts))
 
-dat = JSON.stringify(accounts)
+console.log('\nSync Call')
+console.log("Result=",JSON.stringify(accounts))
 
-console.log(dat)
+// Async call 
+web3.eth.getAccounts(function(error, result){
+    console.log("\nAsync Call");
+    if(error){
+        console.log('Error=',JSON.stringify(error));
+    } else {
+        console.log('Result=',JSON.stringify(result));
+    }
+});
