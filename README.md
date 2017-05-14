@@ -9,7 +9,8 @@ Part of a course.
 On Windows:   Run .bat files to launch geth
 
 On Linux/Mac: Rename the .bat file to .sh
-              Run the shell file in a terminal window
+              Run the shell file in a terminal window after chmod
+              > chmod u+x   file.sh
 
    
 To use the commands:   
