@@ -6,13 +6,13 @@ contract MyContract {
   event NumberSetEvent(address indexed caller, uint oldNum, uint newNum);
   event NumberDoubled(address indexed caller,uint oldNum, uint newNum);
 
-   function getNum()  returns (uint n) {
+   function getNum()  returns (uint) {
      return num;
   }
                
-   function setNum(uint n) {
+   function setNum(uint newNum) {
       uint old = num;
-      num=n;
+      num=newNum;
       NumberSetEvent(msg.sender,old,num);
    }
 
