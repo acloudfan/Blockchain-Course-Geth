@@ -15,5 +15,6 @@ contract sample {
       NumberSetEvent(msg.sender,bytes32(old),bytes32(num));
    }
                
-   function MyContract(uint x){num=x;}
+   function sample(uint x){num=x;}
 }
+
