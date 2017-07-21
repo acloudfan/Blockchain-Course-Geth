@@ -1,3 +1,3 @@
+Rem  DO NOT FORGET TO REPLACE --testnet if you are using --dev
 
-
-Rem  geth --identity "MyTestNode" --datadir "./data" --testnet --verbosity "4" --fast
+geth --testnet --identity "MyTestNode" --datadir "./data"  --verbosity "4" --fast

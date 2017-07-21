@@ -1,3 +1,4 @@
+Rem NOT APPLICABLE for the --dev
 
 Rem Clean the data directory before running the command | you may use geth --data removedb
 Rem #1 Try this command first - if it does not work try #2
