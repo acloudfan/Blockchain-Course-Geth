@@ -8,11 +8,9 @@ Part of a course.
 
 On Windows:   Run .bat files to launch geth
 
-On Linux/Mac: Rename the .bat file to .sh
-              Run the shell file in a terminal window after chmod
-              > chmod u+x   file.sh
+On Linux/Mac: The shell scripts are under bash subfolder
               
-*OR* Simply cut and paste the commands from the files to the terminal
+*OR* Simply copy and paste the commands from the files to the terminal
    
 To use the commands:   
    
