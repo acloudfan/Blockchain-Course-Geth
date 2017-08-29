@@ -9,6 +9,7 @@ Part of a course.
 On Windows:   Run .bat files to launch geth
 
 On Linux/Mac: The shell scripts are under bash subfolder
+- to run them you must prefix the file with the shell command ie:  sh geth-testnet.sh
               
 *OR* Simply copy and paste the commands from the files to the terminal
    
