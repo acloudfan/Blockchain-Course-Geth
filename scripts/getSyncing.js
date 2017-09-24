@@ -1,7 +1,7 @@
 /**
- * web3.eth.isSyncing
- * This convenience function calls the callback everytime a sync 
- * starts, updates and stops.
+ * web3.eth.getSyncing
+ * Callback receieves either a sync object, 
+ * when the node is syncing or false.
  * 
  * Script for demonstrating the isSync functionality
  * 
@@ -15,7 +15,7 @@
  * 5) In attached console you would see change in SYNCHING messages
  */
 
-web3.eth.isSyncing(function(error, sync){
+web3.eth.getSyncing(function(error, sync){
     if(!error) {
         // sync = boolean OR object
         if(sync === true) {
@@ -23,7 +23,7 @@ web3.eth.isSyncing(function(error, sync){
            console.log("SYNCHING: true")
         } else if(sync) {
            // object received
-           console.log("SYNCHING: ", sync.currentBlock);
+           console.log("SYNCHING: ", sync);
         } else {
             // false received
             console("SYNCHING: false")
