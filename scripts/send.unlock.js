@@ -15,7 +15,7 @@
  * 
  */
 
-transferEthers = function(){
+//transferEthers = function(){
     sender = personal.listAccounts[0]; // Same as eth.coinbase
     receiver = personal.listAccounts[1];
 
@@ -37,4 +37,4 @@ transferEthers = function(){
     //     console.log("Err=",error);
     //     console.log("Result=",result)
     // })
-}
+//}
