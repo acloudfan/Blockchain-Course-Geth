@@ -8,7 +8,8 @@
  * geth   --verbosity "0" --datadir "./data" --testnet --exec "loadScript('./scripts/send.unlock.js')" attach
  * 
  * Following will go through
- *  geth   --unlock "0" --password "password.txt" --verbosity "0" --datadir "./data" --testnet --exec "loadScript('./scripts/send.unlock.js')"   attach
+ * Replace --testnet with --rinkeby or --networkid depending on your needs
+ *  geth   --unlock "<ACCOUNT ADDRESS>" --password "<PASSWORD FILE password.txt>" --verbosity "0" --datadir "./data" --testnet --exec "loadScript('./scripts/send.unlock.js')"   attach
  * 
  * Check balance
  * 
